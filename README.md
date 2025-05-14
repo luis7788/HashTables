@@ -28,19 +28,68 @@ $ ./main
 
 ### INPUT
 
+#### Inserção do tamanho da HashTable
+
+O primeiro input deve ser o tmnho máximo da HashTable.
+O input deve estar entre 0 e 10000.
+
 #### Escolha da Hash Table
 
-* OPEN -> Open Addressing with Linear Proving
-* LINK -> Closed Addressing with chaining
-* CUCKOO -> Cuckoo Hash Table
+* OPEN - Open Addressing with Linear Proving
+* LINK - Closed Addressing with chaining
+* CUCKOO - Cuckoo Hash Table
 
 #### Comandos
 
-* I -> Insert a key in HashTable
-* D -> Delet a key in HashTable 
-* C -> Consult a key in HashTable
-* P -> Print HashTable
-* E -> Exit
+* I - Insert a key in HashTable
+* D - Delet a key in HashTable 
+* C - Consult a key in HashTable
+* P - Print HashTable
+* E - Exit
+
+### Exemplo
+
+Input
+```console
+100
+
+OPEN
+
+I
+4
+
+C
+4
+
+I
+5
+
+D
+5
+
+P
+
+E
+```
+
+Output
+```console
+4 -> 4
+OK
+
+4
+
+5 -> 5
+OK
+
+OK
+
+4	4
+5	D
+
+Fim do programa
+```
+*NOTA*:Os espaços entre os comandos são apenas para tornar o exemplo mais perceptível, ou seja, não devem ser usados no programa.
 
 ### Limpez dos ficheiros criados
 
