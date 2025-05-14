@@ -1,4 +1,4 @@
-# HashTables
+# HashTables(Português)
 
 Problema realizado na uc de Laboratórios de Informática 2 do ano letivo 2023/2024 da Universidade do Minho.
 
@@ -102,4 +102,105 @@ $ make clean
 ## Autor
 
 * Luís António Peixoto Soares - [luis7788](https://github.com/luis7788)
+
+
+# HashTables (English)
+
+Project developed for the "Laboratórios de Informática 2" course during the 2023/2024 academic year at the University of Minho.
+
+## Objectives
+
+The goal of the project is to implement 3 different types of Hash Tables:
+
+* Open Addressing with Linear Probing  
+* Closed Addressing with Chaining  
+* Cuckoo Hash Table
+
+### Compiling the Program
+
+To compile the code and access the available programs, simply run:
+
+```console
+$ make
+```
+
+### Running the Program
+
+```console
+$ ./main
+```
+
+### INPUT
+
+#### Hash Table Size
+
+The first input must be the maximum size of the Hash Table.  
+The value should be between 0 and 10000.
+
+#### Hash Table Selection
+
+* `OPEN` - Open Addressing with Linear Probing  
+* `LINK` - Closed Addressing with Chaining  
+* `CUCKOO` - Cuckoo Hash Table
+
+#### Commands
+
+* `I` - Insert a key into the Hash Table  
+* `D` - Delete a key from the Hash Table  
+* `C` - Search for a key in the Hash Table  
+* `P` - Print the Hash Table  
+* `E` - Exit
+
+### Example
+
+Input:
+```console
+100
+
+OPEN
+
+I
+4
+
+C
+4
+
+I
+5
+
+D
+5
+
+P
+
+E
+```
+
+Output:
+```console
+4 -> 4
+OK
+
+4
+
+5 -> 5
+OK
+
+OK
+
+4	4
+5	D
+
+End of program
+```
+
+**Note**: The spaces between commands are only for clarity in the example and should not be used when running the program.
+
+### Cleaning Generated Files
+
+To remove the files generated during the compilation process, run:
+
+```console
+$ make clean
+```
 
