@@ -89,6 +89,7 @@ OK
 
 Fim do programa
 ```
+*NOTA*:Os espaços entre os comandos são apenas para tornar o exemplo mais perceptível, ou seja, não devem ser usados no programa.
 
 ### Limpez dos ficheiros criados
 
