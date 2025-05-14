@@ -51,25 +51,25 @@ O input deve estar entre 0 e 10000.
 
 Input
 ```console
- 100
+100
 
- OPEN
+OPEN
 
- I
- 4
+I
+4
 
- C
- 4
+C
+4
 
- I
- 5
+I
+5
 
- D
- 5
+D
+5
 
- P
+P
 
- E
+E
 ```
 
 Output
