@@ -10,8 +10,8 @@
 
 //Cuckoo
 typedef struct {
-    int tabela1[1000];
-    int tabela2[1000];
+    int tabela1[10000];
+    int tabela2[10000];
 } CuckooTable;
 
 int inserirCuckooHashing(CuckooTable* ht, int P, int key,int cont);

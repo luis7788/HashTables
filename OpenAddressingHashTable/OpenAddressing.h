@@ -15,7 +15,7 @@ typedef struct {
 } LinearKey;
 
 typedef struct {
-    LinearKey tabela[100];
+    LinearKey tabela[10000];
 } LinearTable;
 
 int inserirLinearProbing(LinearTable* ht, int P, int key);

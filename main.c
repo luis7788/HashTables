@@ -68,4 +68,9 @@ int main(){
         }
         
     }
+    printf("Fim do programa\n");
+    free(lT);
+    free(lkT);
+    free(cT);
+    return 0;
 }

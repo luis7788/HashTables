@@ -15,7 +15,7 @@ typedef struct Nodo {
 } LinkedKey;
 
 typedef struct {
-    LinkedKey* tabela[100];
+    LinkedKey* tabela[10000];
 } LinkedTable;
 
 void inserirLinkedList(LinkedTable* ht, int P, int key);
